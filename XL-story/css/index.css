@@ -5,12 +5,13 @@
 :root {
   --fontColor: #ffffff;
   --bgColor: rgb(66, 66, 66);
+  --bodybg: rgb(43, 43, 43);
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: clamp(1rem, 1vw, 2rem);
-  background-color: var(--bgColor);
+  background-color: var(--bodybg);
 }
 #grid-container {
   display: grid;
@@ -63,6 +64,9 @@ p {
 #intro h1,
 #intro p {
   color: black;
+}
+section {
+  background-color: var(--bgColor);
 }
 
 .main-sections {
