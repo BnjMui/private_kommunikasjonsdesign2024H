@@ -95,6 +95,14 @@ section {
     padding: 0.5rem;
   }
 }
+figure {
+  width: 100%;
+  margin: 0;
+}
+figure img {
+  width: 100%;
+  height: auto;
+}
 #conclution {
   color: white;
   p {
