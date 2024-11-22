@@ -74,7 +74,7 @@ section {
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
-  padding: 1rem;
+  padding: 2rem;
   color: var(--fontColor);
   border: 1px solid #00000029;
   margin: 1rem auto;
@@ -105,4 +105,13 @@ section {
 }
 img {
   width: 100%;
+}
+
+footer {
+  background-color: var(--bgColor);
+  color: var(--fontColor);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2rem 1rem 4rem 1rem;
+  margin-top: 2rem;
 }
